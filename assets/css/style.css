@@ -269,13 +269,17 @@ footer
     color: #3a3a3a;
 }
 
-/* li > i
-{
-    font-size: 200%;
-} */
+/* gallery */
 
-/* i  li
+#photos
 {
-    font-size: 300%;
-} */
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0px;
+}
 
+#photos > img
+{
+    width: 100%;
+}
